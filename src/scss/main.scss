@@ -1,1 +1,13 @@
+body {
+  color: white !important;
+  background-image: $-section-background-color, url(../Assets/home-bg.jpg);
+}
 
+.custom-typewriter {
+  font-size: 3rem;
+  padding: 2rem 0;
+  color: $primary-color-purple;
+}
+.strong-text {
+  color: $primary-color-purple;
+}

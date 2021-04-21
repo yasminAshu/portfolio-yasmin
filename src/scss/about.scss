@@ -1,0 +1,25 @@
+.about {
+  &-content {
+    padding: 9rem 2rem;
+    font-size: 1.5rem;
+    &-header {
+      &-skill {
+        text-align: center;
+        padding: 3rem 0;
+      }
+    }
+    &__skillset {
+      text-align: center;
+      .tech-icons {
+        border: 1px solid $primary-color-purple;
+        padding: 1rem;
+        font-size: 4rem;
+        transition: all 0.3ms;
+        margin: 1rem;
+        opacity: 0.93;
+        box-shadow: 4px 5px 4px 3px rgb(89 4 168 / 14%);
+        border-radius: 5px;
+      }
+    }
+  }
+}
